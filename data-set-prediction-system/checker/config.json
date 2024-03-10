@@ -1,0 +1,151 @@
+{
+    "test-groups": [
+        {
+            "name": "Data Set Prediction System",
+            "folder": "tests",
+            "expected-file": "./data-set-prediction-system/",
+            "tests": [
+                {
+                    "name": "get_data1",
+                    "test-score": 1,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "get_data2",
+                    "test-score": 1,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "get_data3",
+                    "test-score": 1,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "get_data4",
+                    "test-score": 2,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "get_csv_data",
+                    "test-score": 2,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "prepare_data1",
+                    "test-score": 1,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "prepare_data2",
+                    "test-score": 1,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "prepare_data3",
+                    "test-score": 1,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "prepare_data4",
+                    "test-score": 2,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "prepare_csv_data",
+                    "test-score": 2,
+                    "test-type": "exact"
+                },
+                {
+                    "name": "cost_function1",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1e-4
+                },
+                {
+                    "name": "cost_function2",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1e-4
+                },
+                {
+                    "name": "cost_function3",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1e-4
+                },
+                {
+                    "name": "gradient_data",
+                    "test-score": 5,
+                    "test-type": "approx",
+                    "max-error": 1e-9
+                },
+                {
+                    "name": "normal_eq_data1",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-7
+                },
+                {
+                    "name": "normal_eq_data2",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-7
+                },
+                {
+                    "name": "normal_eq_data3",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1e-7
+                },
+                {
+                    "name": "normal_eq_data4",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1e-8
+                },
+                {
+                    "name": "normal_eq_data5",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-7
+                },
+                {
+                    "name": "lasso_function1",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-8
+                },
+                {
+                    "name": "lasso_function2",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-8
+                },
+                {
+                    "name": "lasso_function3",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1e-8
+                },
+                {
+                    "name": "ridge_function1",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-8
+                },
+                {
+                    "name": "ridge_function2",
+                    "test-score": 1,
+                    "test-type": "approx",
+                    "max-error": 1e-8
+                },
+                {
+                    "name": "ridge_function3",
+                    "test-score": 2,
+                    "test-type": "approx",
+                    "max-error": 1e-8
+                }
+            ]
+        }
+    ]
+}
